@@ -1,0 +1,5 @@
+# ini file yg tidak boleh kita formating
+/boostrap
+/vendor
+/public
+/storage
