@@ -20,4 +20,8 @@ export const PRIORITY = {
     MEDIUM: 'Medium',
     LOW: 'Low',
     UNKNOWN: 'Unknown'
+};
+
+export function flashMessage(params) {
+    return params.props.flash_message; // fungsi dari flash_message ini adalah utk mengambil pesan flash dari parameter yang diterima, ini membantu dlm mendapatkan pesan yg mungkin perlu ditampilkan di antarmuka(UI) pengguna seperti: pesan notifikasi atau konfirmasi setelah suatu action dilakukan
 }
