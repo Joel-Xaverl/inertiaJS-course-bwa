@@ -9,7 +9,7 @@ export const STATUS = {
     TODO: 'To Do',
     INPROGRESS: 'In Progress',
     ONREVIEW: 'On Review',
-    DONE: 'Done'
+    DONE: 'Done',
     UNKNOWN: 'Unknown'
 }
 
