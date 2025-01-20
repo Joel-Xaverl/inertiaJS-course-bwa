@@ -15,8 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+            $table->string('username')->nullable()->unique(); # ketika kita menggunakan methos nullable kolom usernam itu datanya boleh kosong, dan kita menggunakan uniqeu itu artinya username tdk blh ada data yg sama
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('avatar')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
